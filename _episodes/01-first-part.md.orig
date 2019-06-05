@@ -1,0 +1,75 @@
+---
+title: "An overview of this workshop"
+teaching: 15
+exercises: 0
+questions:
+- "Who is the audience for this workshop?"
+- "What is the format of this workshop?"
+- "What ReproNim material will be covered in this workshop?"
+objectives:
+- "Describe how the workshop addresses the questions above."
+
+keypoints:
+- We want to use this template to provide lesson materials in an open and useful format.
+
+- This is in line with our overall goal of making science (including scientific training) more open.
+
+---
+
+### Audience
+
+* This workshop is intended for an audience of graduate students and
+  post-docs who are interested in learning more about principles of
+  reproducible neuroimaging.
+
+### Format
+
+* The format of this workshop will be two half-day lessons focused on
+  communicating the principles of reproducible neuroimaging with a lesser
+  emphasis on implementation.
+
+### Material
+
+* Material to be covered will include elements of the intro, basics, and
+  dataprocessing modules.
+
+### Markdown format allows you to create nice web-pages
+
+And with only a really small amount of effort! It's text based, so you can
+write exactly what you intend to say.
+
+If you want to introduce a block of code into your lesson, write a block
+fenced by triple-tilde. Here is an example of that
+
+~~~
+import nibabel as nib
+img = nib.load('my_file.nii.gz')
+affine = img.affine
+~~~
+{: .python}
+
+
+Images can be embedded into the lesson plan, by using the following syntax:
+
+![an image]({{site.root}}/fig/rn-logo.png)
+
+To embed images, you will also want to copy the image file into the
+`fig` folder of the repository, and add that.
+
+> ## Exercises and challenges (click on the arrow to the right to open)
+>
+>  Boxes with "challenges" can be interleaved with the lesson materials.
+>  Consider adding a challenge every 15 minutes or so.
+>    - This helps participants stay engaged.
+>    - It surfaces questions that learners have as they go along.
+>    - It breaks up the instruction, providing a bit of a diversion.
+>    - It gives people a chance to engage in peer instruction, which is
+>      is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
+{: .challenge}
+
+
+> ## Callouts
+> If you want to introduce a box with a "callout", use this syntax
+> This is useful for materials that you think of as explanatory asides
+> I usually use this for extra material that is "optional".
+{: .callout}

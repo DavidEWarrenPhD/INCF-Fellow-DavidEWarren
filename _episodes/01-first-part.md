@@ -1,81 +1,64 @@
 ---
-title: "An introduction to this lesson"
+title: "An overview of this workshop"
 teaching: 15
 exercises: 0
 questions:
-- "What do we need a template for?"
+- "Who is the audience for this workshop?"
+- "What is the format of this workshop?"
+- "What ReproNim material will be covered in this workshop?"
 objectives:
-- "Edit lesson materials in the template"
-- "Contribute fixes through Github PRs"
-- "Use the template to create your own lesson"
-keypoints:
-- We want to use this template to provide lesson materials in an open and useful format.
+- "Describe how the workshop addresses the questions above."
 
+keypoints:
+- The audience for this workshop is limited in scope
 - This is in line with our overall goal of making science (including scientific training) more open.
 
 ---
 
-### ReproNim is *open*
+### Audience
 
-The ReproNim event can only accommodate a limited number of participants.
-Nevertheless, we are committed to openness and we are committed to providing our
-materials in an open format, through a publicly accessible website.
+* This workshop is intended for an audience of graduate students and
+  post-docs who are interested in learning more about principles of
+  reproducible neuroimaging.
+* We assume that all attendees will be (cognitive) neuroscientists having some
+  experience with data collection and analysis in a neuroimaging modality.
+* We will not assume any expertise with UNIX-like computing environments,
+  version control, or specific approaches to data processing or analysis.
 
-### Using a template allows to create websites for each of the lectures
+### Format
 
-To enable access to the materials in an open format, but allow different
-instructors freedom in constructing their own materials, we provide a template
-(you're looking at it!), that can be relatively easily adapted to create lesson
-materials for many different lessons
+* The format of this workshop will be two half-day lessons focused on
+  communicating the principles of reproducible neuroimaging with some
+  emphasis on skills and implementation.
+   * Day 1: Reproducibility intro and some basics (w/homework to complete
+     remaining basics) using Binder/JupyterHub on UN HPC resources
+   * Intermission: Homework and additional reading
+   * Day 2: Data processing of introductory dataset using Binder/JupyterHub
+* NOTE: Binder/JupyterHub instances should remain available between and after
+  workshop sessions
 
-To create a new lesson out of the template
+### Material
 
-### Template lesson files are markdown files
-
-* They are in the `_episodes` folder.
-* They are named sequentially:
-  - `01-first-part.md`
-  - `02-second-part.md`
-  - etc
-
-
-### Markdown format allows you to create nice web-pages
-
-And with only a really small amount of effort! It's text based, so you can
-write exactly what you intend to say.
-
-If you want to introduce a block of code into your lesson, write a block
-fenced by triple-tilde. Here is an example of that
-
-~~~
-import nibabel as nib
-img = nib.load('my_file.nii.gz')
-affine = img.affine
-~~~
-{: .python}
-
-
-Images can be embedded into the lesson plan, by using the following syntax:
-
-![an image]({{site.root}}/fig/rn-logo.png)
-
-To embed images, you will also want to copy the image file into the
-`fig` folder of the repository, and add that.
-
-> ## Exercises and challenges (click on the arrow to the right to open)
->
->  Boxes with "challenges" can be interleaved with the lesson materials.
->  Consider adding a challenge every 15 minutes or so.
->    - This helps participants stay engaged.
->    - It surfaces questions that learners have as they go along.
->    - It breaks up the instruction, providing a bit of a diversion.
->    - It gives people a chance to engage in peer instruction, which is
->      is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
-{: .challenge}
-
-
-> ## Callouts
-> If you want to introduce a box with a "callout", use this syntax
-> This is useful for materials that you think of as explanatory asides
-> I usually use this for extra material that is "optional".
-{: .callout}
+* Material to be covered will include elements of the intro, basics, and
+  dataprocessing modules.
+* Day 1
+   * Introduction (30 min.)
+      * All material (streamlined for target group)
+   * Reproducibility Basics (180 min.)
+      * NOTE: Each lesson will be streamlined for introduction of concepts and
+        basic examples only
+      * Lesson 1: Command line/shell
+      * (BREAK)
+      * Lesson 2: Version control systems
+      * Lesson 3: Package managers and distributions
+      * Lesson 4: Other day-to-day reproducible practices
+* Intermission (Homework: 2-week break)
+* Day 2
+   * Data Processing (200 min.)
+      * NOTE: Each lesson will be streamlined to briefly introduce concepts and
+        provide basic workflow examples only
+      * Lesson 1: Core concepts using an analysis example
+      * Lesson 2: Annotate, harmonize, clean, and version data
+      * (BREAK)
+      * Lesson 3: Create and maintain reproducible computational environments
+      * Lesson 4: Create reusable and composable dataflow tools
