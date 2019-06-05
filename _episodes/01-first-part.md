@@ -27,7 +27,7 @@ keypoints:
 
 ### Format
 
-* The format of this workshop will be two half-day lessons focused on
+* The format of this workshop will be **two half-day lessons** focused on
   communicating the principles of reproducible neuroimaging with some
   emphasis on skills and implementation.
    * Day 1: Reproducibility intro and some basics (w/homework to complete
