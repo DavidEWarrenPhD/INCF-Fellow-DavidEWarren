@@ -1,6 +1,6 @@
 ---
 title: "An overview of this workshop"
-teaching: 15
+teaching: 0
 exercises: 0
 questions:
 - "Who is the audience for this workshop?"
@@ -17,7 +17,7 @@ keypoints:
 
 ### Audience
 
-* This workshop is intended for an audience of graduate students and
+* This workshop is intended for an audience of UN graduate students and
   post-docs who are interested in learning more about principles of
   reproducible neuroimaging.
 * We assume that all attendees will be (cognitive) neuroscientists having some
@@ -27,7 +27,7 @@ keypoints:
 
 ### Format
 
-* The format of this workshop will be **two half-day lessons** focused on
+* The format of this workshop will be **two one-day lessons** focused on
   communicating the principles of reproducible neuroimaging with some
   emphasis on skills and implementation.
    * Day 1: Reproducibility intro and some basics (w/homework to complete
@@ -39,26 +39,41 @@ keypoints:
 
 ### Material
 
-* Material to be covered will include elements of the intro, basics, and
+* Overview: Material to be covered will include elements of the intro, basics, and
   dataprocessing modules.
+* Attendance
+   * Instructor (Dave)
+   * 1-2 TA-types
+   * 10-15 students
+* Prerequisites
+   * UN affiliation (UNMC, UNO, UNL, UNK)
+   * UN HPC (Holland Computing Center) account (w/proof)
+   * Basic computer competency
+   * ??? Additional pre-workshop prep ???
 * Day 1
-   * Introduction (30 min.)
+   * Introduction
       * All material (streamlined for target group)
-   * Reproducibility Basics (180 min.)
+   * Reproducibility Basics
       * NOTE: Each lesson will be streamlined for introduction of concepts and
         basic examples only
       * Lesson 1: Command line/shell
       * (BREAK)
       * Lesson 2: Version control systems
+      * (LUNCH)
       * Lesson 3: Package managers and distributions
+      * (BREAK)
       * Lesson 4: Other day-to-day reproducible practices
-* Intermission (Homework: 2-week break)
+* Intermission (Homework: 1 or 2-week break)
 * Day 2
-   * Data Processing (200 min.)
+   * Recap
+      * Review material from Day 1
+   * Data Processing
       * NOTE: Each lesson will be streamlined to briefly introduce concepts and
         provide basic workflow examples only
       * Lesson 1: Core concepts using an analysis example
-      * Lesson 2: Annotate, harmonize, clean, and version data
       * (BREAK)
+      * Lesson 2: Annotate, harmonize, clean, and version data
+      * (LUNCH)
       * Lesson 3: Create and maintain reproducible computational environments
+      * (BREAK)
       * Lesson 4: Create reusable and composable dataflow tools
