@@ -45,6 +45,10 @@ keypoints:
    * Instructor (Dave)
    * 1-2 TA-types
    * 10-15 students
+* Implementation
+   * Binder/JupyterHub on UN HPC resources
+   * Jupyter notebooks served by JupyterHub
+   * Containerized NeuroDebian environment for shell + neuroimaging tools
 * Prerequisites
    * UN affiliation (UNMC, UNO, UNL, UNK)
    * UN HPC (Holland Computing Center) account (w/proof)
@@ -63,7 +67,8 @@ keypoints:
       * Lesson 3: Package managers and distributions
       * (BREAK)
       * Lesson 4: Other day-to-day reproducible practices
-* Intermission (Homework: 1 or 2-week break)
+* Intermission (Break 1-2 weeks)
+    * Homework: Review Day 1
 * Day 2
    * Recap
       * Review material from Day 1
